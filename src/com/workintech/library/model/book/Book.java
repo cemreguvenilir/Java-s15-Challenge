@@ -85,6 +85,17 @@ public class Book implements Borrowable {
     }
 
     @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", title='" + title + '\'' +
+                ", category=" + category +
+                ", author=" + author +
+                ", status=" + status +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(bookId);
     }

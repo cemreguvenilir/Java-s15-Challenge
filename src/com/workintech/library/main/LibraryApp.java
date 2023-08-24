@@ -145,8 +145,8 @@ public class LibraryApp {
                             case 1:
                                 System.out.println("Please enter book title");
                                 String title = scanner.nextLine();
-                                bookManagement.getBooksByTitle(title);
-                                break;
+                                System.out.println(bookManagement.getBooksByTitle(title));
+                               break;
                             case 2:
                                 System.out.println("Please enter author name");
                                 String authorName = scanner.nextLine();
